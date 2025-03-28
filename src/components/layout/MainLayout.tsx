@@ -8,7 +8,7 @@ import Topbar from "../common/Topbar";
 const MainLayout = () => {
   return (
     <Box sx={{ display: "flex" }}>
-      <Topbar />
+      {/* <Topbar /> */}
       <Box
         component="nav"
         sx={{
@@ -28,7 +28,7 @@ const MainLayout = () => {
           backgroundColor: colorConfigs.mainBg
         }}
       >
-        <Toolbar />
+        {/* <Toolbar /> */}
         <Outlet />
       </Box>
     </Box>

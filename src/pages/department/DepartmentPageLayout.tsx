@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
 
-const DashboardPageLayout = () => {
+const DepartmentPageLayout = () => {
   return (
     <><Outlet /></>
   );
 };
 
-export default DashboardPageLayout;
+export default DepartmentPageLayout;

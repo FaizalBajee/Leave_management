@@ -14,11 +14,12 @@ const Topbar = () => {
         color: colorConfigs.topbar.color
       }}
     >
-      <Toolbar>
-        <Typography variant="h6">
-          React sidebar with dropdown
+      <Toolbar sx={{ background: "linear-gradient(to right,rgb(200, 197, 197),rgb(203, 202, 202))", color: "white", justifyContent: "left" }}>
+        <Typography variant="h6" sx={{ fontWeight: "bold", letterSpacing: 1 }}>
+          Employee Leave Management System
         </Typography>
       </Toolbar>
+
     </AppBar>
   );
 };
